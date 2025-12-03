@@ -1,0 +1,16 @@
+лаба 7:
+$ ps aux
+$ pstree
+top
+$ ps -fLC all
+$ ps -fLC Desktop
+$ top
+   r
+  PID
+$ lsof -u ubuntu
+$ free
+$ df 
+$ ls - l /proc/1
+$ cat /proc/cpuinfo
+$ cat /proc/modules
+$

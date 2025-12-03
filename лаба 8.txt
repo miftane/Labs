@@ -1,0 +1,24 @@
+sudo groupadd d8
+sudo useradd -m -G d8 user8
+sudo usermod -a -G d8 user8
+sudo usermod -a -G d8 user8
+cd /home/ubuntu/
+cd $HOME
+cd /home/ubuntu
+chmod g+rwx N*
+chmod g-rwx N*
+chmod g+rwx /home/ubuntu/N*
+chmod g-rwx /home/ubuntu/N*
+stat /home/ubuntu/N*
+ls -ld /home/ubuntu/N*
+rm N*
+rm -r N*
+rm -rf N*
+rm -f N*
+rm -r /home/ubuntu/N*
+rm -rf /home/ubuntu/N*
+chown ubuntu:ubuntu N*
+chown root:root N*
+chown ubuntu:ubuntu /home/ubuntu/N*
+chown root:root /home/ubuntu/N*
+ls -l N*
